@@ -1,4 +1,5 @@
-ciremix
-=======
+CIREMIX is a CI HMVC 
+====================
 
-CI Remix HMVC
+Source : darwinbiler
+Author : J.P
