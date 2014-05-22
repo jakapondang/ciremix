@@ -20,7 +20,7 @@ class Testing extends MX_Controller {
 	
 	public function index()
 	{
-		echo Modules::run('Test/Test/index', "test");
+		echo Modules::run('Test/Test/index', "PARAM FROM MODULES");
 	}
 }
 
