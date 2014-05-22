@@ -28,7 +28,8 @@ class Test extends CI_Controller {
 		// Load our Twig template
 		$data['test_word'] = $params;
 		
-		$this->twig->parse('index.twig', $data);
+		//$this->twig->parse('index.twig', $data);
+		$this->twig->parse('test.html', $data);
 		//$this->load->view('test',$data);
 	}
 }
